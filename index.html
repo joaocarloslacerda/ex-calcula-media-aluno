@@ -14,7 +14,7 @@
         <section>
             <header class="cabecalho">
                 <p>Calculadora de médio de aluno</p>
-                <p>Informe as notas e o resultado aparecerá automaticamente!</p>
+                <p>Informe as notas e clique no botão "CALCULAR"!</p>
             </header>
             <div class="entradaNotas">
                 <div>
@@ -27,8 +27,11 @@
                 </div>
                 <div>
                     <label for="notaTres" class="labelNota">Nota 3:</label>
-                    <input type="text" id="notaTres" onkeyup="calculaMedia()">
+                    <input type="text" id="notaTres">
                 </div>
+            </div>
+            <div>   
+                <button type="submit" id="buttonCalcular" onclick="calculaMedia()">CALCULAR</button>
             </div>
             <div id="resultado">      
                 <p>Resultado</p>          

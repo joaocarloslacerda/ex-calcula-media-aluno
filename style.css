@@ -25,6 +25,7 @@
     padding-left: 65px;
 }
 .corpo section .cabecalho p{
+    width: 280px;
     padding-top: 10px;
 }
 .corpo .entradaNotas div{
@@ -39,8 +40,19 @@
 .corpo .entradaNotas .labelNota{
     font-weight: bold;
 }
+.corpo #buttonCalcular{
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.corpo #buttonCalcular:hover{
+    background-color: rgb(100, 98, 98);
+    color: white;
+}
 .corpo #resultado{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 130px;
     font-size: 30px;
     font-weight: bold;
