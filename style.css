@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.corpo{
+    background-color: rgb(211, 208, 208);
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 400px;
+    border: 20px solid rgb(100, 98, 98);
+    border-radius: 20px;
+}
+.corpo section #textoExplicativo{
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.corpo section .cabecalho{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
