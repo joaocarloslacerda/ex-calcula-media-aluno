@@ -22,5 +22,26 @@
     font-weight: bold;
     font-size: 20px;
     padding-top: 30px;
-    padding-left: 60px;
+    padding-left: 65px;
+}
+.corpo section .cabecalho p{
+    padding-top: 10px;
+}
+.corpo .entradaNotas div{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.corpo .entradaNotas #notaUm, #notaDois, #notaTres{
+    width: 40px;
+    border-radius: 10px;
+    padding-left: 4px;
+}
+.corpo .entradaNotas .labelNota{
+    font-weight: bold;
+}
+.corpo #resultado{
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 30px;
+    font-weight: bold;
 }

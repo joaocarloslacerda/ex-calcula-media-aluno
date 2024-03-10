@@ -13,27 +13,26 @@
     <main class="corpo">
         <section>
             <header class="cabecalho">
-                <p>Calculadora de médio de aluno!</p>
+                <p>Calculadora de médio de aluno</p>
+                <p>Informe as notas e o resultado aparecerá automaticamente!</p>
             </header>
             <div class="entradaNotas">
                 <div>
-                    <label for="notaUm">Nota 1:</label>
-                    <input type="text" id="notaUm">
+                    <label for="notaUm" class="labelNota">Nota 1:</label>
+                    <input type="numb" id="notaUm">
                 </div>
                 <div>
-                    <label for="notaDois">Nota 2:</label>
+                    <label for="notaDois" class="labelNota">Nota 2:</label>
                     <input type="text" id="notaDois">
                 </div>
                 <div>
-                    <label for="notaTres">Nota 3:</label>
-                    <input type="text" id="notaTres">
+                    <label for="notaTres" class="labelNota">Nota 3:</label>
+                    <input type="text" id="notaTres" onkeyup="calculaMedia()">
                 </div>
             </div>
-            <div class="resultado">
-                <label for="">Resultado:</label>
-                <input type="text">
-            </div>
-            
+            <div id="resultado">      
+                <p>Resultado</p>          
+            </div>            
         </section>
     </main>
     
